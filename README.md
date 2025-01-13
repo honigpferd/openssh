@@ -5,7 +5,7 @@ a docker image containing openssh client
 ## usage
 
 ```Shell
-docker build --rm -t openssh:9
+docker build --rm -t openssh:9 .
 ```
 
 ### run

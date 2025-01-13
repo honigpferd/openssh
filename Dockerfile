@@ -1,8 +1,8 @@
-FROM alpine:3.16
+FROM alpine:3.21
 RUN apk add --no-cache \
-  openssh-client-default=9.0_p1-r1 \
-  ca-certificates=20211220-r0 \
-  bash=5.1.16-r2
+  openssh-client-default=9.9_p1-r2 \
+  ca-certificates=20241121-r1 \
+  bash=5.2.37-r0
 #FROM minidocks/base:3.15
 #
 #RUN apk del dropbear-dbclient dropbear-scp \
