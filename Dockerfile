@@ -1,7 +1,7 @@
-FROM alpine:3.21
+FROM alpine:3.22
 RUN apk add --no-cache \
-  openssh-client-default=9.9_p1-r2 \
-  ca-certificates=20241121-r1 \
+  openssh-client-default=10.0_p1-r7 \
+  ca-certificates=20241121-r2 \
   bash=5.2.37-r0
 #FROM minidocks/base:3.15
 #
